@@ -34,7 +34,7 @@ import (
 	"os/exec"
 	"path/filepath"
 	"regexp"
-	"runtime/debug"
+//	"runtime/debug"
 	"strconv"
 	"strings"
 	"text/template"
@@ -458,14 +458,14 @@ func main() {
 	flag.Parse()
 
 	if printVersion {
-		var modVersion string = codecgenModuleVersion
-		if bi, ok := debug.ReadBuildInfo(); ok {
+		// var modVersion string = codecgenModuleVersion
+                /* if bi, ok := debug.ReadBuildInfo(); ok {
 			if modVersion = bi.Main.Version; len(modVersion) > 0 && modVersion[0] == 'v' {
 				modVersion = modVersion[1:]
 			}
 		}
 		fmt.Printf("codecgen v%s (internal version %d) works with %s library v%s +\n",
-			modVersion, genVersion, genCodecPath, minimumCodecVersion)
+			modVersion, genVersion, genCodecPath, minimumCodecVersion) */
 		return
 	}
 
