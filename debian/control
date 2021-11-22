@@ -1,0 +1,39 @@
+Source: golang-github-ugorji-go-codec
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>,
+           Tim Potter <tpot@hpe.com>,
+           Anthony Fok <foka@debian.org>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper (>= 11),
+               dh-golang,
+               golang-any,
+               python,
+               git-core
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ugorji-go-codec
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ugorji-go-codec.git
+Homepage: https://github.com/ugorji/go
+XS-Go-Import-Path: github.com/ugorji/go
+
+Package: golang-github-ugorji-go-codec-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: encode/decode and rpc library for msgpack, binc, cbor and json
+ go-codec library, a High Performance and Feature-Rich Idiomatic
+ encode/decode and rpc library for: msgpack, binc, cbor and json.
+ .
+ This package contains the source.
+
+Package: golang-github-ugorji-go-codec
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Built-Using: ${misc:Built-Using}
+Description: encode/decode and rpc library for msgpack, binc, cbor and json
+ go-codec library, a High Performance and Feature-Rich Idiomatic
+ encode/decode and rpc library for: msgpack, binc, cbor and json.
+ .
+ This package contains the tools (codecgen).
