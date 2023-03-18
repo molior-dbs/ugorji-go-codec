@@ -1,9 +1,10 @@
-golang-github-ugorji-go-codec (1.2.6-2) UNRELEASED; urgency=medium
+golang-github-ugorji-go-codec (1.2.6-3) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * build for buster
+  * build for 1.5
 
- -- André Roth <neolynx@gmail.com>  Mon, 22 Nov 2021 21:39:12 +0000
+ -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 16:03:02 +0100
 
 golang-github-ugorji-go-codec (1.1.1-1) unstable; urgency=medium
 
