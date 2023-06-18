@@ -1,11 +1,12 @@
-golang-github-ugorji-go-codec (1.2.6-4) UNRELEASED; urgency=medium
+golang-github-ugorji-go-codec (1.2.6-5) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * build for buster
   * build for 1.5
   * debian: add dependency
+  * debian: depend on python3
 
- -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 16:09:06 +0100
+ -- André Roth <andre.roth@roche.com>  Sun, 18 Jun 2023 13:18:30 +0200
 
 golang-github-ugorji-go-codec (1.1.1-1) unstable; urgency=medium
 
