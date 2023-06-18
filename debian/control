@@ -9,7 +9,7 @@ Priority: optional
 Build-Depends: debhelper (>= 11),
                dh-golang,
                golang-any,
-               python,
+               python3,
                git-core,
                golang-golang-x-tools-dev
 Standards-Version: 4.1.4
